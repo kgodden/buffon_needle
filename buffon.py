@@ -20,15 +20,7 @@ def draw_board(fig, d, gwidth, gheight):
     plt.plot([x_off + d, x_off + d], [0, gheight], 'k-', lw=1)
     plt.plot([x_off + 2 * d, x_off + 2 * d], [0, gheight], 'k-', lw=1)
 
-def cheat_pick_point_on_circle(ox, oy, r):
-
-    alpha = np.random.uniform(low=0, high=2 * 3.1415926)
-
-    x = r * cos(alpha)
-    y = r * sin(alpha)
-
-    return [ox + x, oy + y], [ox - x, oy - y]
-
+    
 def pick_random_point_on_unit_circle():
     # Randomly pick a point on a unit circle
     # This function deliberately does not use
@@ -183,7 +175,7 @@ def throw_needles(l, d, number_throws, fig, want_graphics):
     #
     pie = 2 * l / (p * d)
 
-    print pie
+    print "Pi is about %f" % pie
 
 
 def buffon_needle():
