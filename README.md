@@ -5,7 +5,7 @@ I have been interested in Buffon's needle ever since I read the book 'Mathematic
 
 A description of the Buffon's Needle problem can be found here: https://en.wikipedia.org/wiki/Buffon%27s_needle_problem
 
-Later when I learned about Monte Carlo simulation in University I thought that Buffon's Needle was a perfect candidate.  I fairly quickly wrote some code and got a reasonably satisfactory estimate for Pi.  However one thing didn't seem right to me, my code referenced the value of Pi as part of it's calculations - this annoyed me as it was supposed to be estimating the value of Pi in the first place!
+Later when I learned about Monte Carlo simulation in University I thought that Buffon's Needle was a perfect candidate.  I fairly quickly wrote some code and got a reasonably satisfactory estimate for Pi.  However one thing didn't seem right to me, my code referenced the value of Pi as part of it's calculations - this annoyed me as it was supposed to be estimating the value of Pi in the first place (in a way its self-referential)
 
 I looked at other simulations that I could find on-line and they all either referenced Pi or used the trigonometry functions!
 
@@ -18,3 +18,5 @@ http://mathworld.wolfram.com/CirclePointPicking.html
 
 
 That's wha tthis code attempts to do, it is a bit slower than using the traditional method but seems to work well enough, and now I can relax for a bit!
+
+PS I also found this [paper](http://www.dca.iag.usp.br/material/cfmraupp/Climatologia-1/Wang2014.pdf) which mentions the (as they call it) paradox of the self referential simulation techniques (calculating Pi by referencing Pi).  They present an algorithm for removing this paradox, which I haven't quite got my head around yet!
