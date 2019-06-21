@@ -15,4 +15,4 @@ Years later I came across a method for randomly picking a point on a circle with
 http://mathworld.wolfram.com/CirclePointPicking.html
 
 
-The code is a bit slower than using the traditional method but seems to work well enough..
+That's wha tthis code attempts to do, it is a bit slower than using the traditional method but seems to work well enough, and now I can relax for a bit!
