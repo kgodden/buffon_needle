@@ -20,3 +20,9 @@ http://mathworld.wolfram.com/CirclePointPicking.html
 That's what this code attempts to do it uses this method to randomly throw the needles, it is a bit slower than using the traditional method but seems to work well enough, and now I can relax for a bit!  I don't know if it is mathematically coherent but I am happy enough with it for now as it seems to give similar results to traditional methods.  If I were being thorough I should compare the random distributions produced by both methods...
 
 PS I also found this [paper](http://www.dca.iag.usp.br/material/cfmraupp/Climatologia-1/Wang2014.pdf) which mentions the (as they call it) paradox of the self referential simulation techniques (calculating Pi by referencing Pi).  They present an algorithm for removing this paradox, which I haven't quite got my head around yet!
+
+For a less involved monet carlo simulation for estimating Pi, please see:
+
+https://github.com/kgodden/monte_carlo_pi
+
+Please note that it is believed that both methods can be used when stranded on a dessert island for estimating Pi to one or two decimal places! ;-)
